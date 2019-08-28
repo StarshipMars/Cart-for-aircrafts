@@ -1,0 +1,114 @@
+.b-minicart {
+    left: 50%;
+    position: fixed;
+    top: 0;
+}
+.b-minicart__list {
+    background: none repeat scroll 0 0 #ccffcc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: none;
+    padding: 10px;
+    width: 400px;
+}
+.b-minicart_list_block {
+    display: block;
+    transition: 1s;
+
+}
+.b-minicart__button {
+    background: none repeat scroll 0 0 lightgreen;
+    border-radius: 0 0 5px 5px;
+    display: inline-block;
+    padding: 3px;
+}
+.b-minicart__button:hover{
+    cursor: pointer;
+}
+.b-minicart__link:hover{
+    cursor: pointer;
+}
+.b-minicart__order {
+    display: none;
+}
+.b-minicart__order__block{
+    display: block;
+    transition: 1s;
+}
+.b-minicart__total {
+}
+.b-minicart__quantity {
+}
+.b-good__delete{
+    color: #0D0D0D;
+    font-weight: bold;
+}
+.b-goods {
+}
+.b-goods tr{
+    background-image: url(../images/cloud.jpg);
+    background-position: top 90% left 80%;
+}
+.b-goods tr td:nth-of-type(1) img{
+    height: 170px;
+}
+.b-goods tr td:nth-of-type(2){
+    position: relative;
+}
+.b-goods tr td:nth-of-type(2) img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    height: 70px;
+    border-bottom-left-radius: 10px;
+}
+.b-goods_cart {
+}
+.b-good {
+}
+
+.b-goods_cart .b-good:first-child {
+    display: none;
+}
+
+.b-good__image-td {
+}
+.b-good__image {
+    width: 150px;
+}
+.b-good__info {
+}
+.b-good__name {
+    color: white;
+    font-weight: bold;
+}
+.b-good_name-black{
+    color: black;
+}
+.b-good__price {
+}
+.b-order-form {
+}
+
+.b-good_in-cart .b-order-form {
+    background: none repeat scroll 0 0 lightgreen;
+}
+.b-order-form__quantity {
+}
+.b-order-form__plus {
+}
+.b-order-form__minus {
+}
+.b-order-form__order {
+}
+.b-good__delete-td {
+}
+.b-good__delete {
+}
+.b-good__delete-icon {
+}
+.b-good__description {
+    color: white;
+    font-weight: bold;
+}
